@@ -3,9 +3,13 @@ This Python script processes customer data provided in a .txt file, removes bad 
 
 
 Key Features:
+
 Data Cleaning: Removes rows with missing values to ensure data integrity and accuracy.
+
 Data Combination: Combines entries with the same address into a single row, reducing redundancy and improving data organization.
+
 Input Flexibility: Accepts customer data in the form of a .txt file, allowing for easy data source selection.
+
 DataFrame Output: Outputs the processed data into a pandas DataFrame, facilitating data manipulation and analysis.
 
 
