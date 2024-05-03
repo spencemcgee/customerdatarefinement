@@ -14,12 +14,16 @@ DataFrame Output: Outputs the processed data into a pandas DataFrame, facilitati
 
 
 Functions:
+
 read_text_to_dataframe(txt_filename):
 Reads data from a text file and converts it into a DataFrame.
+
 clean_out_bad_data(df):
 Cleans out rows with missing values from the DataFrame.
+
 combine_columns(group):
 Combines the values of each column into a single string for each group.
+
 combine_household(df):
 Combines rows with the same address into a single row.
 
