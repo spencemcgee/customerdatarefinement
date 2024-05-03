@@ -21,11 +21,16 @@ Combines rows with the same address into a single row.
 
 
 Usage:
+
 Prepare Customer Data: Ensure customer data is formatted correctly in a .txt file.
+
 Run the Script: Execute the Python script and provide the path to the input .txt file.
+
 Data Processing:
 The script will read the data, clean out bad data, and combine entries based on identical addresses.
+
 Output Data: The processed data will be printed as DataFrames, providing insights into the original, cleaned, and combined data.
+
 Example Usage:
 bash
 Copy code
